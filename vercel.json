@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/widget.v4.js", "destination": "/public/widget.v4.js" },
+    { "source": "/avatars/(.*)", "destination": "/public/avatars/$1" }
+  ]
+}
